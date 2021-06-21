@@ -134,6 +134,7 @@
   form p {
     font-weight: 600;
     font-family: "Open Sans";
+    padding: 15px;
   }
   .form-field{
     display: flex;
