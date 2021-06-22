@@ -6,6 +6,7 @@
 
 }
 .header{
+  margin-top: 0px;
   position: fixed;
   width: 100%;
   height: 80px;
@@ -124,16 +125,18 @@ button:hover{
   color: #000;
 }
 form{
-  
+  background-color: white;
   display: grid;
   grid-row-gap: 20px;
-  width: 500px;
-  height: 550px;
+  width: 30%;
+  height: 40%;
   margin: 0 auto;
   padding: 50px;
   box-shadow: 2px 3px 3px black;
   border: 3px solid black;
-  border-radius: 7px
+  border-radius: 7px;
+  margin-top: 6%;
+  margin-left: 55%;
   
 }
 form p {
@@ -177,19 +180,7 @@ input,select{
   background-image:url("https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
   background-size: cover;
 }
-form{
-  background-color: white;
-  height: 80%;
-  display: grid;
-  float:right;
-  grid-row-gap: 20px;
-  width: 30%;
-  margin-right: 10%;
-  margin-top: 8%;
-  padding: 2%;
-  box-shadow: 5px 3px 3px black;
-  border: 3px solid black;
-}
+
 form p {
   font-weight: 600;
 }
@@ -352,6 +343,7 @@ ul a:hover {
    font-family: Arial;
    box-shadow: 2px 2px 10px black;
    margin-top: 30px;
+    }
 
 }
 @media only screen and (max-width: 900px) {
@@ -368,5 +360,20 @@ ul a:hover {
      margin-top: 30px;
   
   }
-  }
 
+  form{
+  background-color: white;
+  display: grid;
+  grid-row-gap: 20px;
+  width: 50%;
+  height: 40%;
+  margin: 0 auto;
+  padding: 50px;
+  box-shadow: 2px 3px 3px black;
+  border: 3px solid black;
+  border-radius: 7px;
+  margin-top: 15%;
+  margin-left: 20%;
+  }
+}
+  
