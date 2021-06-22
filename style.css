@@ -392,12 +392,8 @@ ul a:hover {
     }
     .form-field{
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       flex-wrap: wrap;
     }
-    .container-form
-    {
-      width: 100%;
-     
-    }
+  
 }
