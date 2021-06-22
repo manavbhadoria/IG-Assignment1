@@ -375,5 +375,23 @@ ul a:hover {
   margin-top: 15%;
   margin-left: 20%;
   }
+
 }
   
+@media only screen and (max-width: 480px){
+  form{
+    background-color: white;
+    display: grid;
+    grid-row-gap: 20px;
+    width: 10%;
+    height: 40%;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 2px 3px 3px black;
+    border: 3px solid black;
+    border-radius: 7px;
+    margin-top: 15%;
+    margin-left: 20%;
+    }
+
+}
