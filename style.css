@@ -184,11 +184,8 @@ input,select{
 form p {
   font-weight: 600;
 }
-.form-field{
-  display: flex;
-  justify-content: space-between;
 
-}
+
 input,select{
   pad: 10px 15px;
 }
@@ -378,20 +375,29 @@ ul a:hover {
 
 }
   
-@media only screen and (max-width: 480px){
+@media only screen and (max-width: 600px){
   form{
     background-color: white;
     display: grid;
     grid-row-gap: 20px;
-    width: 10%;
+    width: 50%;
     height: 40%;
     margin: 0 auto;
-    padding: 50px;
+    padding: 20px;
     box-shadow: 2px 3px 3px black;
     border: 3px solid black;
     border-radius: 7px;
     margin-top: 15%;
     margin-left: 20%;
     }
-
+    .form-field{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .container-form
+    {
+      width: 100%;
+     
+    }
 }
